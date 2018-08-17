@@ -19,5 +19,6 @@ def select_winner(passengers)
   end
   #binding.pry
   # I wonder if there's a way to make this more elegant with a method like #find ?
+  
   winner
 end
