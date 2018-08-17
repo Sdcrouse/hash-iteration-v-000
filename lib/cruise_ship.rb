@@ -15,7 +15,7 @@ def select_winner(passengers)
   passengers.each do |suite, name|
     if suite == :suite_a && name.start_with?("A")
       winner = name
-      # To eliminate unnecessary iterations, I could just return name if the above is true.
+      # To eliminate unnecessary iterations, I could just break or return the name.
     end
   end
   #binding.pry
